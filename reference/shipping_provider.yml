@@ -1984,14 +1984,12 @@ components:
                     type: string
             customer_id:
               type: integer
-        cart_id:
-          type: string
         store_id:
           type: string
         request_context:
           type: object
           title: Request Context
-          description: A collection of Reference Value objects.
+          description: A collection of Reference Value objects. Two examples of this are the cart_id and the channel_id.
           properties:
             reference_values:
               type: array
